@@ -1,0 +1,41 @@
+.services {
+}
+
+.services__wrapper {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.services__list {
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.services__item {
+}
+
+.services__title {
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+
+  color: #303030;
+}
+
+.services__text {
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #303030;
+}
+
+.services__image {
+  width: 600px;
+  height: 670px;
+  display: block;
+}
