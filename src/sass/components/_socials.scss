@@ -1,0 +1,31 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.socials__item {
+}
+
+.socials__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    &:hover, &:focus {
+        background-color: rgba($color: #ddd, $alpha: .50);
+        color: teal
+    }
+}
+
+.socials__icon {
+    width: 30px;
+    height: 30px;
+
+    fill: currentColor;
+}
