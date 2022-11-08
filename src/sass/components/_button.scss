@@ -1,0 +1,33 @@
+.button {
+  position: relative;
+  display: block;
+  height: 104px;
+  padding: 0 52px;
+
+  border: 1px solid transparent;
+  border-radius: 52px;
+  background-color: rgba($color: #ddd, $alpha: 0.2);
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    background-color: rgba($color: #ccc, $alpha: 0.5);
+  }
+}
+
+.button__icon {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.button__text {
+  position: relative;
+  top: 18px;
+
+  font-size: 18px;
+  line-height: calc(25 / 18);
+}

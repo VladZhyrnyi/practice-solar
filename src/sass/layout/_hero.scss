@@ -1,0 +1,45 @@
+.hero {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.hero__logo {
+  margin: 0 auto;
+}
+
+.hero__container {
+  text-align: center;
+}
+
+.hero__pretext {
+  margin-top: 140px;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: calc(87 / 64);
+  font-variant: small-caps;
+}
+
+.hero__posttext {
+  margin-top: 3px;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+}
+
+.hero__button {
+  margin: 50px auto;
+  margin-bottom: 0;
+}
+
+.hero__socials {
+  margin-top: 240px;
+}
