@@ -1,0 +1,20 @@
+.statement {
+  max-width: 1900px;
+  margin: 150px auto 0;
+  background-image: url(../images/statement-bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.statement__container {
+  padding: 128px 0;
+}
+
+.statement__text {
+  max-width: 673px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  color: #FFFFFF;
+}
